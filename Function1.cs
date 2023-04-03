@@ -20,8 +20,8 @@ namespace YNABReportGenerator
         private ILogger _log { get; set; }
 
         [FunctionName("Function1")]
-        public async Task Run([TimerTrigger("0 8 * * 0")]TimerInfo myTimer, ILogger log)
-        //public async Task Run([TimerTrigger("*/1 *  * * *")] TimerInfo myTimer, ILogger log)
+        //public async Task Run([TimerTrigger("0 8 * * 0")]TimerInfo myTimer, ILogger log)
+        public async Task Run([TimerTrigger("0 0 8 * * 7")] TimerInfo myTimer, ILogger log)
         {
             _log = log;
 
