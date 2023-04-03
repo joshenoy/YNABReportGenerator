@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "YNABReportGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7091",
+      "launchBrowser": false,
+      "environmentVariables": {
+        "YNABEndpoint": "",
+        "YNABAccessKey": "",
+        "YNABBudgetID": "",
+        "WebHookURL": ""
+      }
+    }
+  }
+}
