@@ -1,3 +1,3 @@
 # YNABReportGenerator
 
-Generate a weekly report for of YNAB transactions
+Generate a weekly report of YNAB transactions and send it to Discord
